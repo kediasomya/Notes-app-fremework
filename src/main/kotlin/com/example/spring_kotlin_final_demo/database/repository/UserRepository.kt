@@ -6,7 +6,6 @@ import org.springframework.data.mongodb.repository.MongoRepository
 
 interface UserRepository: MongoRepository<User , ObjectId> {
     fun findByEmail(email:String):User?
-
   //  fun deleteByUserId(userId: ObjectId)
 
 }

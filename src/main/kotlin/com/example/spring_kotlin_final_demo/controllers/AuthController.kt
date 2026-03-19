@@ -33,6 +33,7 @@ class AuthController(
             message = "Password must be at least 9 characters long and contain at least one digit, uppercase and lowercase character."
         )
         val password:String
+        //role also
     )
 
 
