@@ -10,5 +10,6 @@ data class User(
 
     val email:String,
     val hashedPassword: String,
+    val role:String,
     @Id val id: ObjectId = ObjectId()
 )
